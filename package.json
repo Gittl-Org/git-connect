@@ -1,0 +1,27 @@
+{
+  "name": "gittl",
+  "version": "0.0.1",
+  "description": "the little git client",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch index.ts --outDir ./dist --onSuccess 'node ./dist/index.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gittl-Org/Gittl.git"
+  },
+  "author": "frédéric lang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gittl-Org/Gittl/issues"
+  },
+  "homepage": "https://github.com/Gittl-Org/Gittl#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.0.0"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.8",
+    "typescript": "^3.9.5"
+  }
+}
