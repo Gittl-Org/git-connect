@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="gittl-pic.png" alt="Gittl Logo" width="400" />
+  <img src="gitconnect.png" alt="Gittl Logo" width="400" />
 <p/>
 
 <h1 align="center">The little Git client<h1/>
